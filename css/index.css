@@ -82,7 +82,7 @@ html {
 .whiteBack {
     background-color: white;
     position: absolute;
-    top: 50vh;
+    top: 45vh;
     height: fit-content;
     width: 100%;
     border-radius: 19px 19px 0 0;
@@ -106,7 +106,7 @@ html {
 .slider .story {
     height: 100%;
     border: solid 2px white;
-    outline: 2px solid blueviolet;
+    box-shadow: 0 0 2.5px 2px blueviolet;
     width: 50px;
     border-radius: 50% 50% 9px 9px;
     overflow: hidden;
@@ -114,6 +114,7 @@ html {
 .slider .story img {
     width: 100%;
     height: 100%;
+    display: block;
 }
 
 .lineBorder {
